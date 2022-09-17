@@ -1,0 +1,76 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.block{
+    width:800px;
+    height:150px;
+    border:1px solid black;
+    border-radius: 40px;
+}
+
+.one {
+    z-index: 1;
+    position: absolute;
+}
+
+.two {
+    z-index: 2;
+    position: absolute;
+    transform: rotate(20deg);
+}
+
+.three {
+    z-index: 3;
+    position: absolute;
+    transform: rotate(40deg);
+}
+
+.four{
+    z-index: 4;
+    position: absolute;
+    transform: rotate(60deg);
+}
+
+.five{
+    z-index: 5;
+    position: absolute;
+    transform: rotate(80deg);
+}
+
+.six{
+    z-index: 56;
+    position: absolute;
+    transform: rotate(100deg);
+}
+
+.seven{
+    z-index: 7;
+    position: absolute;
+    transform: rotate(120deg);
+}
+
+.eight{
+    z-index: 8;
+    position: absolute;
+    transform: rotate(140deg);
+}
+
+.nine{
+    z-index: 9;
+    position: absolute;
+    transform: rotate(160deg);
+}
+
+body{
+    font-family: Helvetica, sans-serif
+}
+
+h3{
+    position: absolute;
+    top:820px;
+    left:930px;
+}
